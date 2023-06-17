@@ -1,0 +1,9 @@
+The provided code snippet demonstrates the usage of the Web3 library with Ganache, a local Ethereum development network. It creates an instance of the Web3 library connected to Ganache running on `http://127.0.0.1:7545`.
+
+Two Ethereum account addresses (`acc1` and `acc2`) are defined for the transaction, and a value (`val`) is specified in wei by converting 1 ether using the `web3.utils.toWei` function.
+
+The `web3.eth.sendTransaction` function is then called to send a transaction from `acc1` to `acc2` with the specified value.
+
+Finally, the code retrieves the balance of `acc1` using `web3.eth.getBalance` and logs it to the console.
+
+In summary, this code snippet sets up a connection to Ganache using Web3, sends an ETH transaction from one account to another, and retrieves and logs the balance of one of the accounts.
