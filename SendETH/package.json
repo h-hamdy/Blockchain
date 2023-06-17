@@ -1,0 +1,15 @@
+{
+  "name": "sendeth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sendETH.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-tx": "^2.1.2",
+    "ethereumjs-util": "^7.1.5"
+  }
+}

@@ -1,0 +1,2 @@
+SendETH
+This script allows you to send Ethereum (ETH) from one account to another on the Ropsten test network using the Web3 library and Infura as the provider.
