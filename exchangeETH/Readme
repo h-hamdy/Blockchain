@@ -1,0 +1,3 @@
+The "Exchange" smart contract allows the transfer of ETH between accounts, maintaining balances using a mapping. Authorized users can mint new tokens or increase balances. 
+The "send" function deducts the amount from the sender's balance and adds it to the receiver's balance, emitting a log event. 
+This contract facilitates ETH exchanges while tracking balances.
